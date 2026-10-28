@@ -1,0 +1,16 @@
+# Resume file
+
+Place your actual resume PDF at this exact path:
+
+```
+public/resume.pdf
+```
+
+Then open `src/data/portfolio.ts` and set:
+
+```js
+resumeAvailable: true,
+```
+
+The "Download Resume" button in the hero section will then download your real PDF.
+Until then, the button shows a clearly labeled placeholder.
